@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/disha1202/ionic-vue-global-styles.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "HotWax Commerce",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/disha1202/ionic-vue-global-styles/issues"
   },
