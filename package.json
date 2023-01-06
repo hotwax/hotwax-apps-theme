@@ -1,5 +1,5 @@
 {
-  "name": "ionic-vue-global-styles",
+  "name": "@hotwax/apps-theme",
   "version": "1.0.0",
   "description": "",
   "main": "styles.css",
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/hotwax/hotwax-apps-theme.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "HotWax Commerce",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/hotwax/hotwax-apps-theme/issues"
   },

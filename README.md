@@ -1,1 +1,1 @@
-# ionic-vue-global-styles
+# hotwax-apps-theme
