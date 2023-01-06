@@ -1,5 +1,5 @@
 {
-  "name": "ionic-vue-global-styles",
+  "name": "@hotwax/apps-theme",
   "version": "1.0.0",
   "description": "",
   "main": "styles.css",
