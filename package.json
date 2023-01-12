@@ -2,7 +2,7 @@
   "name": "@hotwax/apps-theme",
   "version": "1.0.0",
   "description": "Common theme for HotWax applications",
-  "main": "styles.css",
+  "main": "css/theme.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
