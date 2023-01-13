@@ -40,25 +40,6 @@ body {
   justify-self: start
 }
 
-.settings-button {
-  margin: var(--spacer-xs);
-}
-
-.settings-heading {
-  padding: var(--spacer-xs) 10px 0;
-}
-
-.settings-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  align-items: start;
-}
-
-.user-profile {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-}
-
 hr {
   border-top: 1px solid var(--ion-color-medium);
 }
