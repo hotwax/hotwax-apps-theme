@@ -12,7 +12,9 @@ section {
   align-items: start;
 }
 
-.user-profile {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+@media (min-width: 400px) {
+  .user-profile {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
 }
