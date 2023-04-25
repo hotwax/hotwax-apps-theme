@@ -2,6 +2,10 @@ ion-card > ion-button {
   margin: var(--spacer-xs);
 }
 
+.user-profile ion-card-header {
+  padding-inline: 0px
+}
+
 h1 {
   padding: var(--spacer-xs) 10px 0;
 }
