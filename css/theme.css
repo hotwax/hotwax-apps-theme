@@ -124,3 +124,17 @@ ion-thumbnail > img {
     --border-color: var(--ion-color-medium)
   }
 }
+
+[popover].popover-viewport {
+  display: initial;
+  position: initial;
+  margin: initial;
+  border: initial;
+  background: initial;
+  padding: initial;
+  width: initial;
+  height: initial;
+  overflow: initial;
+  inset: initial;
+  color: initial;
+}
