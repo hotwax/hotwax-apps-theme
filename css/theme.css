@@ -29,6 +29,15 @@ body {
   align-items: center;
 }
 
+.list-item::hov {
+  --list-item-bg-hover: var(--ion-color-light);
+  background: var(--list-item-bg-hover);
+}
+
+.list-item ion-item {
+  --background: var(var(--list-item-bg-hover))
+}
+
 /* Hides all columns first so that smaller devices don't overflow horizontally */
 .list-item > * {
   display: none;
