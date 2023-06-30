@@ -29,7 +29,7 @@ body {
   align-items: center;
 }
 
-.list-item::hov {
+.list-item:hover {
   --list-item-bg-hover: var(--ion-color-light);
   background: var(--list-item-bg-hover);
 }
