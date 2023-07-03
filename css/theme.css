@@ -35,7 +35,7 @@ body {
 }
 
 .list-item ion-item {
-  --background: var(var(--list-item-bg-hover))
+  --background: var(--list-item-bg-hover);
 }
 
 /* Hides all columns first so that smaller devices don't overflow horizontally */
