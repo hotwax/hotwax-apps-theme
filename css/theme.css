@@ -32,6 +32,7 @@ body {
 .list-item:hover {
   --list-item-bg-hover: var(--ion-color-light);
   background: var(--list-item-bg-hover);
+  cursor: pointer;
 }
 
 .list-item ion-item {
@@ -73,7 +74,7 @@ hr {
   }
 
   /* show columns that are tagged with 'tablet' class */
-  .tablet {
+  .list-item .tablet {
     display: unset;
   }
 }
@@ -91,7 +92,7 @@ hr {
   }
 
   /* make sure tablet columns are still shown */
-  .tablet {
+  .list-item .tablet {
     display: unset;
   }
 }
