@@ -120,6 +120,11 @@ ion-thumbnail > img {
   object-fit: contain;
 }
 
+/* fixing slot end not pushing element to complete right inside ion-item */
+ion-item > *[slot="end"] {
+  flex-grow: unset !important;
+}
+
 /* optimzing chip and item border color for dark mode */
 @media (prefers-color-scheme: dark) {
   ion-chip > ion-icon {
