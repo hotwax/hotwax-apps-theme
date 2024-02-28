@@ -10,6 +10,19 @@ body {
   --spacer-3xl: 10rem;   /* 160px */
 }
 
+
+/* Custom spinner sizes */
+/* Use case: putting spinner inside buttons can cause UI distortions like the spinner being larger than the actual button itself resulting in a cropped spinner */
+
+/* Recommended for small buttons or buttons in ion-items */
+[data-spinner-size="small"] {
+  transform: scale(0.5);
+}
+
+[data-spinner-size="medium"] {
+  transform: scale(0.75);
+}
+
 /* Classes to create row based layouts */
 
 /* Apply 'list-item' class on parent wrapper of items constituing the columns of a row */
