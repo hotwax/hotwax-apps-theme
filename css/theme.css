@@ -11,16 +11,13 @@ body {
 }
 
 
-/* Custom spinner sizes */
+/* Default spinner size when used inside button */
 /* Use case: putting spinner inside buttons can cause UI distortions like the spinner being larger than the actual button itself resulting in a cropped spinner */
 
-/* Recommended for small buttons or buttons in ion-items */
-[data-spinner-size="small"] {
-  transform: scale(0.5);
-}
-
-[data-spinner-size="medium"] {
-  transform: scale(0.75);
+/* Using height and width relative to its parent element. */
+ion-button > ion-spinner {
+  height: 1em;
+  width: 1em;
 }
 
 /* Classes to create row based layouts */
