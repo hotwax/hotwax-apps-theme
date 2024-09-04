@@ -18,6 +18,7 @@ body {
 ion-button > ion-spinner {
   height: 1em;
   width: 1em;
+  font-size: 1.35em;
 }
 
 /* Classes to create row based layouts */
