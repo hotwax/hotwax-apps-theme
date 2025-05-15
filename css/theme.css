@@ -72,6 +72,10 @@ ion-button > ion-spinner {
   justify-self: start
 }
 
+.list-item > ion-item:first-child {
+  width: 100%;
+}
+
 /* Add a border to the top of the row item. Using border top so that the last item doesn't have a border below it */
 hr {
   border-top: 1px solid var(--ion-color-medium);
