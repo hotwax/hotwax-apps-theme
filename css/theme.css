@@ -73,7 +73,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: var(--spacer-sm);
 }
 
 /* To fully show the image in the empty-state instead of any crops */
