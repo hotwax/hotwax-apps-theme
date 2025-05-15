@@ -81,6 +81,30 @@ hr {
   border-top: 1px solid var(--ion-color-medium);
 }
 
+/* Align item in center and giving padding to all sides */
+.empty-state {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacer-sm);
+}
+
+/* To fully show the image in the empty-state instead of any crops */
+.empty-state > img {
+  object-fit: contain;
+}
+
+/* To center align the content inside <p> */
+.empty-state > p {
+  text-align: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /* Tablet media query for row based layouts */
 @media (min-width: 700px) {
   /* show the number of columns entered in the tablet columns CSS variable */
