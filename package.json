@@ -1,6 +1,6 @@
 {
   "name": "@hotwax/apps-theme",
-  "version": "1.2.9",
+  "version": "1.3.0",
   "description": "Common theme for HotWax applications",
   "main": "css/theme.css",
   "scripts": {
