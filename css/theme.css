@@ -181,3 +181,9 @@ ion-item > *[slot="end"] {
     --border-color: var(--ion-color-medium)
   }
 }
+
+@media (display-mode: standalone) {
+  [standalone-hidden="true"] {
+    display: none;
+  }
+}
